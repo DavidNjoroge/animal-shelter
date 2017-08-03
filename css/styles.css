@@ -3,16 +3,34 @@ h1{
 }
 .cat{
   border: 2px solid red;
+  padding: 6px;
+  margin: 60px;
   background-color: pink;
 }
 .dog{
   border: 2px solid red;
+  padding: 6px;
+  margin: 60px;
   background-color: blue;
 }
 .goat{
   border: 2px solid red;
+  padding: 6px;
+  margin: 60px;
   background-color: green;
 }
 body{
   background-color: lightblue;
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    body {
+        background-color: black;
+        color: white;
+    }
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: yellowgreen;
+  }
 }
