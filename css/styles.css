@@ -1,0 +1,18 @@
+h1{
+  text-align: center;
+}
+.cat{
+  border: 2px solid red;
+  background-color: pink;
+}
+.dog{
+  border: 2px solid red;
+  background-color: blue;
+}
+.goat{
+  border: 2px solid red;
+  background-color: green;
+}
+body{
+  background-color: lightblue;
+}
